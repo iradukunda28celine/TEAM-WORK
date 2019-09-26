@@ -3,10 +3,14 @@ body{
 	font-size: 15px;
 	line-height: 1.5;
 	padding: 0;
-	background-image:linear-gradient(to right, #000000a9, #000000d3), url("../images/showcase.jpg");
+	background-image:linear-gradient(to right, #000000a9, #000000d3), url("../assets/images/showcase.jpg");
 	background-repeat:no-repeat ;
     background-size: cover;
     background-attachment: fixed;
+}
+
+a {
+	color:#1111118c;
 }
 
 .container{
@@ -29,6 +33,7 @@ ul{
 	padding-left: 20px;
 	padding-right: 20px;
 	color: #ffffff;
+	background-color: #e8491d9e;
 }
 
 .dark{
@@ -41,6 +46,7 @@ ul{
 	width: 30%;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: #cccccc54;
 
 
 }
@@ -52,7 +58,7 @@ ul{
 
 /*  sign in */
 
-input[type=text] ,input[type=email]{
+input[type=text] ,input[type=email],input[type=password]{
 	width: 100%;
 	padding: 12px 20px;
 	margin: 8px 0;
@@ -67,6 +73,7 @@ input[type=text] ,input[type=email]{
     border-radius: 25px;
     color: #fff;
     font-weight: bold;
+    background-color: #7f2aff75;
 
 }
 
@@ -77,6 +84,7 @@ input[type=text] ,input[type=email]{
 
 header{
 	background: #35424a;
+	background-color: #cccccc4a;
 	color: #ffffff;
 	padding-top: 30px;
 	min-height: 70px;
@@ -87,7 +95,7 @@ header{
 
 #heading-top{
 
-background-color: #cccccc4a;
+background-color: #cccccc80;
  
 
 }
@@ -118,8 +126,6 @@ header li{
 	padding: 0 20px 0 20px;
 }
 
- 
-#brading .
 
 header #branding{
 	float: left;
@@ -128,9 +134,9 @@ header #branding{
 	padding: 20px 0;
 }
 
-.home{
 
-}
+
+
 
 /*text-transform: uppercase;*/
 .search{
@@ -146,6 +152,7 @@ header #branding{
 }
 .srch{
 	display: flex;
+
 
 }
 .search-btn{
@@ -300,7 +307,7 @@ padding: 15px;
 margin-top: 15px;
 padding-top: 10px;
 color: #ffffff;
-background:#35424acc; 
+background: #cccccc4a; 
 
 }
 
@@ -393,24 +400,25 @@ background:#35424acc;
     outline: none;
     border-bottom: 1px solid #cccccce6;
     box-sizing: border-box;
-    background-color: #e0e0e0;
+    background-color: #ccccccd6;
 } 
 
 .former .input-box input:focus,
 .former .input-box input:valid {
-    border-bottom: 0.5px solid #7f2aff;
+    border-bottom: 0.5px solid #7f2aff75;
     transition: 0.5s;
 }
 .former .input-box textarea:focus,
 .former .input-box textarea:valid {
-    border-bottom: 0.5px solid #7f2aff;
+    border-bottom: 0.5px solid #7f2aff75;
 }
 .former .input-box input[type="submit"] {
     border: none;
-    background:#7f2aff;
+    background:#7f2aff75;
     border-radius:25px;
     color: #fff;
     font-weight: bold;
+
 }
 .former .input-box input[type="submit"]:hover {
     background: #1d1d1d;
@@ -488,6 +496,7 @@ article #main-col{
     padding: 12px;
     outline: none;
     box-sizing: border-box;
+    background-color: #7f2aff61;
 }
 
 .tag{
@@ -500,6 +509,7 @@ article #main-col{
     margin: 0 0 0 7px;
     outline: none;
     box-sizing: border-box;
+    background-color: #cccccceb;
 
 }
 
@@ -510,7 +520,7 @@ article #main-col{
 .delete{
     float:right;
     border: none;
-    background: red;
+    background-color:  #e8491d9c;
     border-radius:25px;
     color: #fff;
     font-size: 12px;
@@ -532,11 +542,13 @@ article #main-col{
     margin:  0 0 7px;
     outline: none;
     box-sizing: border-box;
+     background-color: #7f2aff61;
+
 }
 .new-post {
     float:right;
     border: none;
-    background: red;
+    background-color: #e8491d9c;
     border-radius:25px;
     color: #fff;
     font-size: 12px;
@@ -553,7 +565,7 @@ footer{
 	padding: 20px;
 	margin-top: 20px;
 	color: #ffffff;
-	background-color: #e8491d63;
+	background-color: #cccccc4a;
 	text-align: center;
 }
 
@@ -566,9 +578,9 @@ footer{
 
 }
 
-.forquests {
+.forquests a{
     font-size: 13px;
- 
+    color:#ffffff;
     text-align: center;
 }
 
