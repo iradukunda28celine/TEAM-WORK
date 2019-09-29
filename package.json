@@ -1,8 +1,8 @@
 {
-  "name": "team-work",
+  "name": "TEAM-WORK",
   "version": "1.0.0",
   "description": "team work is a platform where employees get to interact between each other and share thougts",
-  "main": "script.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/iradukunda28celine/TEAM-WORK.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -17,6 +18,11 @@
   },
   "homepage": "https://github.com/iradukunda28celine/TEAM-WORK#readme",
   "dependencies": {
-    "lodash": "^4.17.15"
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
   }
 }
