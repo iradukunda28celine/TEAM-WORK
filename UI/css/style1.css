@@ -10,7 +10,7 @@ body{
 }
 
 a {
-	color:#1111118c;
+	color:black;
 }
 
 .container{
@@ -245,7 +245,7 @@ header a:hover{
     float: left;
     padding: 10px;
     text-align: center;
-    width: 25%;
+    /*width: 25%;*/
     padding-top: 30px;
     margin-top: 10px;
     margin-left: 30px;
@@ -449,7 +449,7 @@ article #main-col{
 }
 
 .question .quest_card{
-    display:inline-table;
+    display: block;
 }
 
 .quest_card {
@@ -459,6 +459,8 @@ article #main-col{
     border-radius: 3px;
     margin: 10px;
     width:100%;
+    display:inline;
+    box-sizing: border-box;
 }
 .quest-data {
     padding-bottom: 5px;
@@ -497,6 +499,7 @@ article #main-col{
     outline: none;
     box-sizing: border-box;
     background-color: #7f2aff61;
+    display: inline-block;
 }
 
 .tag{
@@ -610,3 +613,72 @@ footer{
  #showcase h1{
  	margin-top: 40px;
  }
+.meail{
+	text-align: center;
+
+}
+
+/* responsive for tablets */
+
+@media screen and (max-width: 1120px) {
+  header #branding,
+		header nav,.mail
+		header nav li,
+		#newsletter h1,
+		#newsletter form{
+
+		
+		float: none;
+		text-align: center;
+		width: 100%
+	}
+
+
+
+@media screen and (max-width: 900px) {
+   header #branding,
+		header nav,
+		header nav li,
+		#newsletter h1,
+		#newsletter form{
+
+		
+		float: none;
+		text-align: center;
+		width: 100%
+	}
+
+
+ 
+
+/* responsive for mobiles */
+
+@media screen and (max-width: 730px) {
+  
+
+     header #branding,.left,.right,.email,.holder,.quest-foot,.containa,
+		header nav, .dark , section,.quest_card,.profilesection,.quest-foot
+		header nav li, #navigation p,a, body,
+		#newsletter h1,.profile_card,#showcase,.mail,.profile_name,.status,
+		#newsletter form{
+
+	
+
+	
+		float: none
+		text-align: center;
+		width: 100%
+		box-sizing:border-box;
+	}
+
+	.quest_card{
+		margin: 0
+	}
+	body{
+		padding: 0
+	}
+}
+
+
+
+
